@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    border: 1px solid #4C70A0;
+    min-height: 700px;
+}
+
+.center {
+    text-align: center;
+}
+
+header {
+    background-color: #4C70A0;
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+.top_links {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    right: 5%;
+    top: 20px;
+    width: 360px;
+}
+
+.top_links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+/* footer */
+
+.footer {
+    margin: auto;
+    width: 200px;
+    text-align: center;
+}
+
+.footer a {
+    color: blue;
+}
+
+/* */
+
+.content {
+    display: flex;
+    margin: 1px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.mt-5 {
+    margin: 5px 0;
+}
+
+.sol {
+    width: 20%;
+}
+
+.sag {
+    width: 80%;
+    border: 1px solid #4C70A0;
+}
+.box{
+    padding-bottom:50px;
+}
+.box-header {
+    background-color: #4C70A0;
+    color: white;
+
+}
+
+/* register */
+
+form {
+    /* margin: 20px; */
+}
+
+.form-control {
+    margin: 5px 0;
+}
+
+.form-control label {
+    margin: 0 15px;
+    width: 400px;
+}
+
+.form-control input {
+    margin: 0 15px;
+    width: 200px;
+    background-color: lightgray;
+    border: 0;
+}
+
+.p5 {
+    margin: 20px;
+}
+
+.p1 {
+    margin: 5px;
+}
+
+.box2 {
+    border: 1px solid #4C70A0;
+}
+
+.box2 .box-content {
+    padding: 15px;
+}
+
+/* index */
+
+ul li {
+    width: 200px;
+    margin: auto;
+}
+
+ul {
+    margin: 20px;
+}
+.index-button{
+    margin: 10px;
+}
+.index-button a {
+    margin: 10px;
+    background-color: blue;
+    color: white;
+    border: 0;
+    padding: 0 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.links2 {
+    display: flex;
+    flex-direction: column;
+    border: 1px dashed blue;
+    margin: 8px;
+    text-align: left;
+    padding: 5px;
+}
+.links2 a {
+    color: blue;
+    text-decoration: none;
+}.links2 a:hover {
+    text-decoration: underline;
+}
+
+/* Profil */
+
+.sol25 {
+    width: 35%;
+    float: left;
+}
+
+.sag75 {
+    width: 65%;
+    float: left;
+}
+
+.box2 {
+    display: block;
+}
+
+.clearul {
+    list-style: none;
+    margin: 10px 5px;
+}
+
+.clearul li {
+    border: 1px solid black;
+    width: 100%;
+    display: block;
+}
+
+table tr td {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+/*  edit */
+
+.profil-edit table {
+    margin: 20px 0;
+}
+
+.profil-edit table input, select {
+    width: 200px;
+}
+
+.profil-edit table td:first-child {
+    width: 150px;
+}
+
+.form-control2 label{
+    float: right;
+}
+.btn2{
+    margin: 10px;
+
+}
+.btn2 button{
+    background-color:  #4C70A0;
+    border: 0;
+    width: 50px;
+    color: white;
+    padding-top: 3px;
+    }.btn2 a{
+        text-decoration: none;
+        border-radius: 1px;
+        background-color:  #4C70A0;
+        border: 0;
+        width: 60px;
+        color: white;
+    }

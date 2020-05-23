@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteRule ^([a-zA-Z0-9-_/]+)$ index.php?sef=$1 [QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+RewriteRule ^profil/([0-9a-zA-Z-_]+) profil.php?sef=$1 [L,QSA]
